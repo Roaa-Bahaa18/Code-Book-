@@ -198,3 +198,10 @@ const API_BASE = 'https://localhost:44313/api/v1';
 ```
 
 ---
+## 👥 Developers
+
+- Habiba Ahmed
+- Roaa Bahaa
+- Malak Yousry
+- Farida Yousry
+---
