@@ -40,27 +40,27 @@ CodeBook follows a strict **3-layer architecture**:
 
 ```
 ┌─────────────────────────────────────────────┐
-│              Frontend (HTML/CSS/JS)        │
-│         Vanilla JS · Fetch API · api.js    │
+│              Frontend (HTML/CSS/JS)         │
+│         Vanilla JS · Fetch API · api.js     │
 └──────────────────┬──────────────────────────┘
                    │ HTTP + HttpOnly Cookies
 ┌──────────────────▼──────────────────────────┐
 │           Layer 3 — API Layer               │
-│   ASP.NET Controllers · Middleware Pipeline│
-│   JWT Auth · ApiResponse<T> · Swagger      │
+│   ASP.NET Controllers · Middleware Pipeline │
+│   JWT Auth · ApiResponse<T> · Swagger       │
 └──────────────────┬──────────────────────────┘
                    │
 ┌──────────────────▼──────────────────────────┐
-│        Layer 2 — Business Logic Layer      │
-│  Services · FluentValidation · AutoMapper  │
-│  Domain Events · Notifications             │
+│        Layer 2 — Business Logic Layer       │
+│  Services · FluentValidation · AutoMapper   │
+│  Domain Events · Notifications              │
 └──────────────────┬──────────────────────────┘
                    │
 ┌──────────────────▼──────────────────────────┐
-│        Layer 1 — Data Access Layer         │
-│  EF Core · Code First · Fluent API         │
-│  Generic Repository · Unit of Work         │
-│                      SQL Server            │
+│        Layer 1 — Data Access Layer          │
+│  EF Core · Code First · Fluent API          │
+│  Generic Repository · Unit of Work          │
+│                      SQL Server             │
 └──────────────────┬──────────────────────────┘
                    │
            ┌───────▼────────┐
